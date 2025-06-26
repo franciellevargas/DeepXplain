@@ -1,6 +1,3 @@
-# DeepXplain-SummerSchool2025
-DeepXplain Summer School 2025
-
 # Project Timeline: DeepXplain Summer 2025
 
 **Students:**  
