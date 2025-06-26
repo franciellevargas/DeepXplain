@@ -1,7 +1,14 @@
 # DeepXplain-SummerSchool2025
 DeepXplain Summer School 2025
 
+# Project Timeline: DeepXplain Summer 2025
 
+**Students:**  
+- Røskva Bjørgfinsdóttir — [rosktb@gmail.com](mailto:rosktb@gmail.com)  
+- Brage Eilertsen — [bragee2002@gmail.com](mailto:bragee2002@gmail.com)
+
+> 📅 **Phase 1: Preparation & Onboarding**  
+> **Duration:** July 1 - July 7
 ## Introduction to the Scope and Objectives of the Project
 
 - 🎯 **Familiarization with Deep Learning Frameworks:**  
