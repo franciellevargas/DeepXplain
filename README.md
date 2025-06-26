@@ -19,3 +19,88 @@
 
 - **Setting up the Development Environment and Datasets:**  
   Preparing the environment for training and testing, including installation of required libraries, configuration of GPU settings, and loading relevant datasets.
+
+- **Activite 1: :**  # Fine-Tuning BERT and Applying LIME & SHAP for Sentiment Analysis  
+
+## 🎯 Objective
+
+In this activity, you will explore the full pipeline of **fine-tuning a transformer-based model** for **sentiment analysis**, followed by applying **model-agnostic explainability techniques** to interpret its predictions.
+
+This hands-on exercise aims to help you:
+
+- Understand how to adapt a pre-trained BERT model to a new classification task.
+- Learn how to use LIME and SHAP to explain model behavior.
+- Critically evaluate what the model learns and how it makes decisions.
+
+---
+
+## 📝 Instructions
+
+### 1. Choose a Sentiment Analysis Dataset
+
+Select a dataset available on the [Hugging Face Datasets Hub](https://huggingface.co/datasets) for a sentiment classification task.
+
+You can choose from datasets such as:
+- `imdb`
+- `yelp_review_full`
+- `sst2`
+- `amazon_polarity`
+- or any other dataset that suits your interest and has a sentiment-related label.
+
+> 💡 Feel free to explore both binary and multi-class sentiment datasets.
+
+---
+
+### 2. Fine-Tune a Pre-trained BERT Model
+
+Use a model from [Hugging Face Transformers](https://huggingface.co/models), such as `bert-base-uncased`, and fine-tune it on your selected dataset.
+
+Steps include:
+- Preprocessing and tokenization.
+- Splitting the dataset (train/test).
+- Fine-tuning the model using Hugging Face `Trainer` or PyTorch Lightning.
+- Evaluating accuracy, F1-score, or other relevant metrics.
+
+You can use the provided notebook (`activity1_lime&shap_bert_sentiment_analysis.ipynb`) as a starting point and customize it to your dataset.
+
+---
+
+### 3. Apply Explainability Methods: LIME and SHAP
+
+After training your model, apply **LIME** and **SHAP** to explain **individual predictions**.
+
+Your task is to:
+- Use LIME to highlight the most important words contributing to a given classification.
+- Use SHAP (with the `shap.Explainer`) to compute Shapley values for token-level contributions.
+- Visualize the explanations and compare how each technique interprets the model's behavior.
+
+---
+
+### 4. Analyze and Reflect
+
+Include your observations directly in the notebook:
+- Which words most influenced the predictions?
+- Do LIME and SHAP highlight similar tokens?
+- Are there any surprising patterns or signs of bias?
+- Did the model behave as you expected?
+
+---
+
+## ✅ Deliverables
+
+- A completed and well-commented Jupyter Notebook (`.ipynb`) that includes:
+  - Dataset loading and justification of your choice
+  - Fine-tuning pipeline
+  - LIME and SHAP explanations for multiple examples
+  - Visualizations (plots, heatmaps, etc.)
+  - Analysis and personal reflections
+
+---
+
+## 🛠️ Setup
+
+Before starting, install the required Python packages:
+
+```bash
+pip install transformers datasets torch lime shap scikit-learn matplotlib seaborn
+
