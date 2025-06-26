@@ -34,7 +34,7 @@ This hands-on exercise aims to help you:
 
 ---
 
-## 📝 Instructions
+## Instructions
 
 ### 1. Choose a Sentiment Analysis Dataset
 
