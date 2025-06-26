@@ -83,17 +83,6 @@ Include your observations directly in the notebook:
 
 ---
 
-## ✅ Deliverables
-
-- A completed and well-commented Jupyter Notebook (`.ipynb`) that includes:
-  - Dataset loading and justification of your choice
-  - Fine-tuning pipeline
-  - LIME and SHAP explanations for multiple examples
-  - Visualizations (plots, heatmaps, etc.)
-  - Analysis and personal reflections
-
----
-
 ## 🛠️ Setup
 
 Before starting, install the required Python packages:
