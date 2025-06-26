@@ -38,17 +38,14 @@ This hands-on exercise aims to help you:
 
 ### 1. Choose a Sentiment Analysis Dataset
 
-Select a dataset available on the [Hugging Face Datasets Hub](https://huggingface.co/datasets) for a sentiment classification task.
+Select a binary dataset available on the [Hugging Face Datasets Hub](https://huggingface.co/datasets) for a sentiment classification task.
 
 You can choose from datasets such as:
 - `imdb`
-- `yelp_review_full`
+- `financial_phrasebank`
 - `sst2`
 - `amazon_polarity`
 - or any other dataset that suits your interest and has a sentiment-related label.
-
-> 💡 Feel free to explore both binary and multi-class sentiment datasets.
-
 ---
 
 ### 2. Fine-Tune a Pre-trained BERT Model
