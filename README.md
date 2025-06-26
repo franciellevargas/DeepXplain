@@ -20,7 +20,7 @@
 - **Setting up the Development Environment and Datasets:**  
   Preparing the environment for training and testing, including installation of required libraries, configuration of GPU settings, and loading relevant datasets.
 
-## Activite 1: :**  # Fine-Tuning BERT and Applying LIME & SHAP for Sentiment Analysis  
+## Activite 1: : # Fine-Tuning BERT and Applying LIME & SHAP for Sentiment Analysis  
 
 ## Objective
 
