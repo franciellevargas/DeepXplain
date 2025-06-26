@@ -15,7 +15,7 @@
   Exploring model interpretability methods like:
   - [SHAP (SHapley Additive exPlanations)](https://shap.readthedocs.io/)
   - [LIME (Local Interpretable Model-agnostic Explanations)](https://lime-ml.readthedocs.io/)
-  - Attention mechanisms in deep learning
+  - [Introduction to Attention mechanisms in deep learning](https://www.ibm.com/think/topics/attention-mechanism)
 
 - **Setting up the Development Environment and Datasets:**  
   Preparing the environment for training and testing, including installation of required libraries, configuration of GPU settings, and loading relevant datasets.
