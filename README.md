@@ -58,7 +58,7 @@ Steps include:
 - Fine-tuning the model using Hugging Face `Trainer` or PyTorch Lightning.
 - Evaluating accuracy, F1-score, or other relevant metrics.
 
-You can use the provided notebook (`activity1_lime&shap_bert_sentiment_analysis.ipynb`) as a starting point and customize it to your dataset.
+You can use the provided notebook (`[activity1_lime&shap_bert_sentiment_analysis.ipynb](https://github.com/franciellevargas/DeepXplain/blob/4d092be2ceb0a4e9b8fe2676dd942dc96451afbe/code/activity1_lime%26shap_bert_sentiment_analysis.ipynb)`) as a starting point and customize it to your dataset.
 
 ---
 
