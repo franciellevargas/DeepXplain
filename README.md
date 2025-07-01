@@ -30,7 +30,7 @@ This hands-on exercise aims to help you:
 
 - Understand how to adapt a pre-trained BERT model to a new classification task.
 - Learn how to use LIME and SHAP to explain model behavior.
-- Critically evaluate what the model learns and how it makes decisions.
+- Evaluate what the model learns and how it makes decisions.
 
 ---
 
