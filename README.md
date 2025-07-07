@@ -37,6 +37,16 @@
 
 - Sufficiency and Comprehensiveness of rationales (optional/if applied)
 
+## Preliminary Findings:
+- Preliminary results indicate that SRA enhances alignment with human rationales while also contributing to improved classification performance.
+
+- There is initial evidence that the model trained with SRA commits fewer false positives on neutral mentions of sensitive groups, indicating potential for bias mitigation.
+
+
+
+
+
+
 
 > 📅 **Phase 1: Preparation & Onboarding**  
 > **Duration:** July 1 - July 7
