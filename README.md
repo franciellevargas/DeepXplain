@@ -4,6 +4,42 @@
 - Røskva Bjørgfinsdóttir — [rosktb@gmail.com](mailto:rosktb@gmail.com)  
 - Brage Eilertsen — [bragee2002@gmail.com](mailto:bragee2002@gmail.com)
 
+> 📅 **Phase 2: Phase 2: Initial Research & Benchmarking**  
+> **Duration:** July 7 - July 11
+## First round of experiments: supervised rational attention for bias detection and model transparency
+
+## Activite 1: we implemented and evaluated the Supervised Rational Attention (SRA) method on HateXplain and HateBRXplain datasets
+In this initial experimental phase, we implemented and evaluated the Supervised Rational Attention (SRA) method with the objective of improving both model interpretability and bias mitigation in hate speech detection.
+
+The key idea behind SRA is to incorporate human rationales as supervised attention signals, guiding the model to focus explicitly on the portions of the input text that humans identify as relevant for classification. This helps ensure that the model's decision-making process is both more transparent and potentially less susceptible to spurious correlations with sensitive identity terms.
+
+## Goals:
+- Interpretability: Evaluate whether SRA improves the alignment between the model’s attention and human-provided rationales.
+
+- Bias detection and mitigation: Assess whether the use of human-guided attention reduces model bias toward sensitive social groups (e.g., gender, race, nationality).
+
+## Methodology:
+We trained a BERT-based classifier with supervised attention using two sets of human-annotated rationales.
+
+We introduced automated annotations to flag whether each example contains references to sensitive identity groups (e.g., “woman”, “black”, etc.), enabling targeted bias evaluation.
+
+## Bias metrics included:
+
+ - Subgroup AUC
+
+- BPSN AUC (Background Positive, Subgroup Negative)
+
+- BNSP AUC (Background Negative, Subgroup Positive)
+
+- Generalized Mean of Bias AUCs
+
+## Interpretability metrics included:
+
+- IOU, F1-overlap between model attention and human rationales
+
+- Sufficiency and Comprehensiveness of rationales (optional/if applied)
+
+
 > 📅 **Phase 1: Preparation & Onboarding**  
 > **Duration:** July 1 - July 7
 ## Introduction to the Scope and Objectives of the Project
