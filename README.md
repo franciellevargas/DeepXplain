@@ -17,7 +17,7 @@
 - Bias detection and mitigation: Assess whether the use of human-guided attention reduces model bias toward sensitive social groups (e.g., gender, race, nationality).
 
 ## Methodology:
-- We trained a BERT-based classifier with supervised attention using two sets of human-annotated rationales.
+- We trained a BERT-based classifier with supervised attention using two sets of human-annotated rationales in English and Portuguese.
 
 - We introduced automated annotations to flag whether each example contains references to sensitive identity groups (e.g., “woman”, “black”, etc.), enabling targeted bias evaluation.
 
