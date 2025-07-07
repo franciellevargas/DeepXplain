@@ -35,7 +35,7 @@
 
 - IOU, F1-overlap between model attention and human rationales
 
-- Sufficiency and Comprehensiveness of rationales (optional/if applied)
+- Sufficiency and Comprehensiveness of rationales
 
 ## Preliminary Findings:
 - Preliminary results indicate that SRA enhances alignment with human rationales while also contributing to improved classification performance.
