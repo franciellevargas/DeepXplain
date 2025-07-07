@@ -6,7 +6,7 @@
 
 > 📅 **Phase 2: Initial Research & Benchmarking**  
 > **Duration:** July 7 - July 11
-## Activite 2: # First round of experiments: supervised rational attention for bias mitigation and model transparency
+## Activite 2: # First Round of Experiments: Supervised Rational Attention for Human Alignment and Model Transparency
 - In this initial experimental phase, we implemented and evaluated the Supervised Rational Attention (SRA) method with the objective of improving both model interpretability and bias mitigation in hate speech detection.
 
 - The key idea behind SRA is to incorporate human rationales as supervised attention signals, guiding the model to focus explicitly on the portions of the input text that humans identify as relevant for classification. This helps ensure that the model's decision-making process is both more transparent and potentially less susceptible to spurious correlations with sensitive identity terms.
