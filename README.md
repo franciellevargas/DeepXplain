@@ -4,7 +4,7 @@
 - Røskva Bjørgfinsdóttir — [rosktb@gmail.com](mailto:rosktb@gmail.com)  
 - Brage Eilertsen — [bragee2002@gmail.com](mailto:bragee2002@gmail.com)
 
-> 📅 **Phase 2: Phase 2: Initial Research & Benchmarking**  
+> 📅 **Phase 2: Initial Research & Benchmarking**  
 > **Duration:** July 7 - July 11
 ## Activite 2: First round of experiments: supervised rational attention for bias detection and model transparency
 - In this initial experimental phase, we implemented and evaluated the Supervised Rational Attention (SRA) method with the objective of improving both model interpretability and bias mitigation in hate speech detection.
@@ -17,9 +17,9 @@
 - Bias detection and mitigation: Assess whether the use of human-guided attention reduces model bias toward sensitive social groups (e.g., gender, race, nationality).
 
 ## Methodology:
-We trained a BERT-based classifier with supervised attention using two sets of human-annotated rationales.
+- We trained a BERT-based classifier with supervised attention using two sets of human-annotated rationales.
 
-We introduced automated annotations to flag whether each example contains references to sensitive identity groups (e.g., “woman”, “black”, etc.), enabling targeted bias evaluation.
+- We introduced automated annotations to flag whether each example contains references to sensitive identity groups (e.g., “woman”, “black”, etc.), enabling targeted bias evaluation.
 
 ## Bias metrics included:
 
