@@ -1,11 +1,10 @@
 # Project Timeline: DeepXplain Summer 2025
-
+---
 **Students:**  
 - Røskva Bjørgfinsdóttir — [rosktb@gmail.com](mailto:rosktb@gmail.com)  
 - Brage Eilertsen — [bragee2002@gmail.com](mailto:bragee2002@gmail.com)
 ---
----
----
+
 
 > 📅 **Phase 3: Evaluation, Results Discussion, and Initial Paper Drafting**  
 > **Duration:** July 14 - July 18
