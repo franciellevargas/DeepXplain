@@ -14,13 +14,13 @@
 During this stage of the summer school, our activities focused on three main objectives:
 
 ## Evaluation of Experimental Results:
-We systematically evaluated the performance of our proposed Supervised Rationale Attention (SRA) method. This included analyzing both interpretability metrics (such as IoU and F1-overlap with human rationales) and fairness metrics (including Subgroup AUC, BPSN AUC, and BNSP AUC) across multilingual datasets.
+- We systematically evaluated the performance of our proposed Supervised Rationale Attention (SRA) method. This included analyzing both interpretability metrics (such as IoU and F1-overlap with human rationales) and fairness metrics (including Subgroup AUC, BPSN AUC, and BNSP AUC) across multilingual datasets.
 
 ## Discussion and Interpretation of Results:
-We conducted an in-depth discussion of the experimental findings to identify strengths, potential biases, and areas for further improvement. This involved comparing baseline models with the SRA-enhanced models to understand the impact of incorporating human rationales into attention supervision.
+- We conducted an in-depth discussion of the experimental findings to identify strengths, potential biases, and areas for further improvement. This involved comparing baseline models with the SRA-enhanced models to understand the impact of incorporating human rationales into attention supervision.
 
 ## Initiating Paper Writing:
-We started drafting the paper for submission to ACL. This included outlining the introduction, related work, methodology, and compiling the first version of our results and discussion sections.
+- We started drafting the paper for submission to ACL. This included outlining the introduction, related work, methodology, and compiling the first version of our results and discussion sections.
 
 
 ---
