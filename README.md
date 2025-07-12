@@ -8,6 +8,7 @@
 
 > 📅 **Phase 3: Evaluation, Results Discussion, and Initial Paper Drafting**  
 > **Duration:** July 14 - July 18
+---
 
 ## Activite 3: # Evaluation and Paper Drafting
 
@@ -24,10 +25,10 @@ During this stage of the summer school, our activities focused on three main obj
 
 
 ---
-
 > 📅 **Phase 2: Initial Research, Benchmarking, Implementation, and Experimentation**  
 > **Duration:** July 7 - July 11
-> 
+---
+
 ## Activite 2: # First Round of Experiments: Self-Explainable and Fair Hate Speech Detection
 - In this initial experimental phase, we implemented a new innovative method with the objective of improving both model interpretability and bias mitigation in hate speech detection.
 
@@ -59,9 +60,10 @@ During this stage of the summer school, our activities focused on three main obj
 
 
 ---
-
 > 📅 **Phase 1: Preparation & Onboarding**  
 > **Duration:** July 1 - July 7
+---
+
 ## Introduction to the Scope and Objectives of the Project
 
 - **Familiarization with Deep Learning Frameworks:**  
