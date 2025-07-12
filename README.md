@@ -4,20 +4,38 @@
 - Røskva Bjørgfinsdóttir — [rosktb@gmail.com](mailto:rosktb@gmail.com)  
 - Brage Eilertsen — [bragee2002@gmail.com](mailto:bragee2002@gmail.com)
 
-> 📅 **Phase 2: Initial Research & Benchmarking**  
-> **Duration:** July 7 - July 11
-## Activite 2: # First Round of Experiments: Supervised Rational Attention for Human Alignment and Model Transparency
-- In this initial experimental phase, we implemented and evaluated the Supervised Rational Attention (SRA) method with the objective of improving both model interpretability and bias mitigation in hate speech detection.
+> 📅 **Phase 3: Evaluation, Results Discussion, and Initial Paper Drafting**  
+> **Duration:** July 14 - July 18
 
-- The key idea behind SRA is to incorporate human rationales as supervised attention signals, guiding the model to focus explicitly on the portions of the input text that humans identify as relevant for classification. This helps ensure that the model's decision-making process is both more transparent and potentially less susceptible to spurious correlations with sensitive identity terms.
+## Activite 3: # Evaluation and Paper Drafting
+
+During this stage of the summer school, our activities focused on three main objectives:
+
+## Evaluation of Experimental Results:
+We systematically evaluated the performance of our proposed Supervised Rationale Attention (SRA) method. This included analyzing both interpretability metrics (such as IoU and F1-overlap with human rationales) and fairness metrics (including Subgroup AUC, BPSN AUC, and BNSP AUC) across multilingual datasets.
+
+## Discussion and Interpretation of Results:
+We conducted an in-depth discussion of the experimental findings to identify strengths, potential biases, and areas for further improvement. This involved comparing baseline models with the SRA-enhanced models to understand the impact of incorporating human rationales into attention supervision.
+
+## Initiating Paper Writing:
+We started drafting the paper for submission to ACL. This included outlining the introduction, related work, methodology, and compiling the first version of our results and discussion sections.
+
+
+---
+
+> 📅 **Phase 2: Initial Research, Benchmarking, Implementation, and Experimentation**  
+> **Duration:** July 7 - July 11
+> 
+## Activite 2: # First Round of Experiments: Self-Explainable and Fair Hate Speech Detection
+- In this initial experimental phase, we implemented a new innovative method with the objective of improving both model interpretability and bias mitigation in hate speech detection.
 
 ## Goals:
-- Interpretability: Evaluate whether SRA improves the alignment between the model’s attention and human-provided rationales.
+- Interpretability: Evaluate whether the propose new method improves interpretability of transformers-based models.
 
 - Bias detection and mitigation: Assess whether the use of human-guided attention reduces model bias toward sensitive social groups (e.g., gender, race, nationality).
 
 ## Methodology:
-- We trained a BERT-based classifier with supervised attention using two sets of human-annotated rationales in English and Portuguese.
+- We trained a BERT-based classifier on benchmark explainable hate speech detection datasets: HateXplain and HateBRXplain in English and Portuguese.
 
 - We introduced automated annotations to flag whether each example contains references to sensitive identity groups (e.g., “woman”, “black”, etc.), enabling targeted bias evaluation.
 
@@ -37,16 +55,8 @@
 
 - Sufficiency and Comprehensiveness of rationales
 
-## Preliminary Findings:
-- Preliminary results indicate that SRA enhances alignment with human rationales while also contributing to improved classification performance.
 
-- There is initial evidence that the model trained with SRA commits fewer false positives on neutral mentions of sensitive groups, indicating potential for bias mitigation.
-
-
-
-
-
-
+---
 
 > 📅 **Phase 1: Preparation & Onboarding**  
 > **Duration:** July 1 - July 7
