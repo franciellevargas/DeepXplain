@@ -3,6 +3,9 @@
 **Students:**  
 - Røskva Bjørgfinsdóttir — [rosktb@gmail.com](mailto:rosktb@gmail.com)  
 - Brage Eilertsen — [bragee2002@gmail.com](mailto:bragee2002@gmail.com)
+---
+---
+---
 
 > 📅 **Phase 3: Evaluation, Results Discussion, and Initial Paper Drafting**  
 > **Duration:** July 14 - July 18
@@ -86,7 +89,6 @@ This hands-on exercise aims to help you:
 - Learn how to use LIME and SHAP to explain model behavior.
 - Evaluate what the model learns and how it makes decisions.
 
----
 
 ## Instructions
 
@@ -100,7 +102,6 @@ You can choose from datasets such as:
 - `sst2`
 - `amazon_polarity`
 - or any other dataset that suits your interest and has a sentiment-related label.
----
 
 ### 2. Fine-Tune a Pre-trained BERT Model
 
@@ -114,7 +115,6 @@ Steps include:
 
 You can use the provided notebook [activity1_lime&shap_bert_sentiment_analysis.ipynb](https://github.com/franciellevargas/DeepXplain/blob/4d092be2ceb0a4e9b8fe2676dd942dc96451afbe/code/activity1_lime%26shap_bert_sentiment_analysis.ipynb) as a starting point and customize it to your dataset.
 
----
 
 ### 3. Apply Explainability Methods: LIME and SHAP
 
@@ -125,7 +125,6 @@ Your task is to:
 - Use SHAP (with the `shap.Explainer`) to compute Shapley values for token-level contributions.
 - Visualize the explanations and compare how each technique interprets the model's behavior.
 
----
 
 ### 4. Analyze and Reflect
 
@@ -134,12 +133,6 @@ Include your observations directly in the notebook:
 - Do LIME and SHAP highlight similar tokens?
 - Are there any surprising patterns or signs of bias?
 - Did the model behave as you expected?
-
----
-
-## 🛠️ Setup
-
-Before starting, install the required Python packages:
 
 ```bash
 pip install transformers datasets torch lime shap scikit-learn matplotlib seaborn
