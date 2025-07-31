@@ -5,13 +5,13 @@
 - Brage Eilertsen — [bragee2002@gmail.com](mailto:bragee2002@gmail.com)
 ---
 
-> 📅 **Phase 4: Paper Development**  
+> 📅 **Phase 4: Paper Development and Abstract Submission**  
 > **Duration:** July 21 - July 25
 ---
 
 ## Activite 4: # Paper Writing and Refinement
 
-At this stage, we will focus on the development of the paper. This process will involve organizing the research findings, structuring the main arguments, and articulating the methodology and results in a coherent and compelling manner. We will begin by outlining the key sections—introduction, related work, the proposed method (SRA), experiments, results, and discussion, ensuring that the narrative flows logically and aligns with the target venue’s expectations. Special attention will be given to clarity, scientific rigor, and the articulation of the paper’s contributions. This phase will also include rounds of internal review and refinement to strengthen the overall quality before submission.
+At this stage, we will focus on the development of the paper. This process will involve organizing the research findings, structuring the main arguments, and articulating the methodology and results in a coherent and compelling manner. We will begin by outlining the key sections—introduction, related work, the proposed method (SRA), experiments, results, and discussion, ensuring that the narrative flows logically and aligns with the target venue’s expectations. Special attention will be given to clarity, scientific rigor, and the articulation of the paper’s contributions. This phase will also include rounds of internal review and refinement to strengthen the overall quality before submission. We will also submit the abstract of the paper to the AAAI-26 Conference.
 
 ---
 > 📅 **Phase 3: Evaluation, Results Discussion, and Initial Paper Drafting**  
