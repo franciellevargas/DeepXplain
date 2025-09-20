@@ -1,4 +1,6 @@
-# Project Timeline: DeepXplain Summer 2025
+# DeepXplain: Summer School on Explainable and Trustworthy AI
+
+# University of Oslo – Summer 2025
 ---
 **Students:**  
 - Røskva Bjørgfinsdóttir — [rosktb@gmail.com](mailto:rosktb@gmail.com)  
