@@ -1,11 +1,6 @@
 # DeepXplain: Summer School on Explainable and Trustworthy AI
 
 # University of Oslo – Summer 2025
----
-**Students:**  
-- Røskva Bjørgfinsdóttir — [rosktb@gmail.com](mailto:rosktb@gmail.com)  
-- Brage Eilertsen — [bragee2002@gmail.com](mailto:bragee2002@gmail.com)
----
 
 > 📅 **Phase 4: Paper Development and Abstract Submission**  
 > **Duration:** July 21 - July 25
